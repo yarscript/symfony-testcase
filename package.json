@@ -1,0 +1,27 @@
+{
+  "name": "symfony-testcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@popperjs/core": "^2.11.8",
+    "@symfony/stimulus-bridge": "*",
+    "@symfony/webpack-encore": "^4.3.0",
+    "bootstrap": "^5.3.0",
+    "jquery": "^3.7.0",
+    "stimulus": "^2",
+    "webpack-notifier": "^1.15.0"
+  }
+}
